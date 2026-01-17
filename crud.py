@@ -4,8 +4,8 @@ from typing import List, Optional
 from datetime import datetime
 import uuid
 
-from backend.models import Task, User
-from backend.schemas import TaskCreate, TaskUpdate
+from models import Task, User
+from schemas import TaskCreate, TaskUpdate
 
 
 def get_user(db: Session, user_id: str):

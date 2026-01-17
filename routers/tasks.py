@@ -4,10 +4,10 @@ from typing import List
 import uuid
 from datetime import datetime
 
-from backend.crud import *
-from backend.models import *
-from backend.schemas import Task, TaskCreate, TaskUpdate
-from backend.database import get_db
+from crud import *
+from models import *
+from schemas import Task, TaskCreate, TaskUpdate
+from database import get_db
 
 # Also import the schemas module to reference it directly
 import backend.schemas as schemas
