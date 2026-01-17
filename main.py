@@ -8,13 +8,13 @@ from datetime import datetime
 import uuid
 
 # Import routers
-from backend.routers import chat, agents, websocket, tasks
+from routers import chat, agents, websocket, tasks
 
 # Import models and agents
-from backend.agents.main_agent import main_agent
-from backend.agents.agent_registry import agent_registry
-from backend.speckit.skills_matcher import skills_matcher
-from backend.speckit.task_analyzer import task_analyzer
+from agents.main_agent import main_agent
+from agents.agent_registry import agent_registry
+from speckit.skills_matcher import skills_matcher
+from speckit.task_analyzer import task_analyzer
 
 load_dotenv()
 
